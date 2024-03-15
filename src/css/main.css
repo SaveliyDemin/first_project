@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    background-color: rgb(165, 165, 165);
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    
+}
+.forma{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    justify-content: space-between;
+    height: 100%;
+    padding: 15px;
+}
+.goda{
+    position: absolute;
+}
+.bady{
+    position: absolute;
+    top: 50px;
+
+}
